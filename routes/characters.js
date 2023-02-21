@@ -18,22 +18,6 @@ router.get("/:id", getCharacter, (req, res) => {
 })
 
 
-// router.post("/", async (req, res) => {
-//     const character = new Character({
-//         name: req.body.name,
-//         about: req.body.about,
-//         abilities: req.body.abilities,
-//         image: req.body.image,
-//         _id: req.body._id
-//     })
-//     try {
-//         const newCharacter = await character.save()
-//         res.status(201).json(newCharacter)
-//     } catch (err) {
-//         res.status(400).json({ message: err.message })
-//     }
-// })
-
 
 async function getCharacter(req, res, next) {
     let character
