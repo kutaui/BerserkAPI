@@ -30,7 +30,7 @@ Base url: http://berserkapi.kutaybekleric.com
 
 All requests are `GET` requests and go over `https`. All responses will return data in `json`.
 
-To use the API, make a GET request to the endpoint `https://berserkapi.herokuapp.com/character/${id}`. You can replace `${id}` with a number from `0-9`.
+To use the API, make a GET request to the endpoint `http://berserkapi.kutaybekleric.com/character/${id}`. You can replace `${id}` with a number from `0-9`.
 
 The API will return a JSON response with the following fields:
 
